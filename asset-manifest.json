@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/HLB2B/static/css/main.1a8050f4.css",
+    "main.css": "/HLB2B/static/css/main.ddf0484b.css",
     "main.js": "/HLB2B/static/js/main.c8683484.js",
     "index.html": "/HLB2B/index.html",
-    "main.1a8050f4.css.map": "/HLB2B/static/css/main.1a8050f4.css.map",
+    "main.ddf0484b.css.map": "/HLB2B/static/css/main.ddf0484b.css.map",
     "main.c8683484.js.map": "/HLB2B/static/js/main.c8683484.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a8050f4.css",
+    "static/css/main.ddf0484b.css",
     "static/js/main.c8683484.js"
   ]
 }
