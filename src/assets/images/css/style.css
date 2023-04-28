@@ -1,0 +1,20 @@
+body{
+}
+ul{
+    margin-left: 70px;
+}
+h2{
+    text-align: center;
+}
+h5,h6{
+    margin-left: 10px;
+}
+p {
+    color:  #4c4a37;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 44px;
+    margin-left: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
