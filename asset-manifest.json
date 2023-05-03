@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/HLB2B/static/css/main.ea206378.css",
-    "main.js": "/HLB2B/static/js/main.cba48c7a.js",
-    "static/media/logo.png": "/HLB2B/static/media/logo.362ac966b1ef7b05529c.png",
-    "index.html": "/HLB2B/index.html",
-    "main.ea206378.css.map": "/HLB2B/static/css/main.ea206378.css.map",
-    "main.cba48c7a.js.map": "/HLB2B/static/js/main.cba48c7a.js.map"
+    "main.css": "/AboutUs/static/css/main.ea206378.css",
+    "main.js": "/AboutUs/static/js/main.5fcad4ec.js",
+    "static/media/logo.png": "/AboutUs/static/media/logo.362ac966b1ef7b05529c.png",
+    "index.html": "/AboutUs/index.html",
+    "main.ea206378.css.map": "/AboutUs/static/css/main.ea206378.css.map",
+    "main.5fcad4ec.js.map": "/AboutUs/static/js/main.5fcad4ec.js.map"
   },
   "entrypoints": [
     "static/css/main.ea206378.css",
-    "static/js/main.cba48c7a.js"
+    "static/js/main.5fcad4ec.js"
   ]
 }
