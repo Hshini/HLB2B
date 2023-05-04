@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/HLB2B/static/css/main.ea206378.css",
-    "main.js": "/HLB2B/static/js/main.819ce2d4.js",
+    "main.js": "/HLB2B/static/js/main.aca98ba3.js",
     "static/media/logo.png": "/HLB2B/static/media/logo.858cb05d984b1e11f2fc.png",
     "index.html": "/HLB2B/index.html",
     "main.ea206378.css.map": "/HLB2B/static/css/main.ea206378.css.map",
-    "main.819ce2d4.js.map": "/HLB2B/static/js/main.819ce2d4.js.map"
+    "main.aca98ba3.js.map": "/HLB2B/static/js/main.aca98ba3.js.map"
   },
   "entrypoints": [
     "static/css/main.ea206378.css",
-    "static/js/main.819ce2d4.js"
+    "static/js/main.aca98ba3.js"
   ]
 }
