@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/HLB2B/static/css/main.8e1462d0.css",
+    "main.css": "/HLB2B/static/css/main.91591cb2.css",
     "main.js": "/HLB2B/static/js/main.12e78e5f.js",
     "static/media/mission.jpg": "/HLB2B/static/media/mission.889a97e28290f0bf6358.jpg",
     "static/media/service.jpg": "/HLB2B/static/media/service.183bdd2022b1d447e47e.jpg",
     "static/media/logo.png": "/HLB2B/static/media/logo.858cb05d984b1e11f2fc.png",
     "index.html": "/HLB2B/index.html",
-    "main.8e1462d0.css.map": "/HLB2B/static/css/main.8e1462d0.css.map",
+    "main.91591cb2.css.map": "/HLB2B/static/css/main.91591cb2.css.map",
     "main.12e78e5f.js.map": "/HLB2B/static/js/main.12e78e5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e1462d0.css",
+    "static/css/main.91591cb2.css",
     "static/js/main.12e78e5f.js"
   ]
 }
