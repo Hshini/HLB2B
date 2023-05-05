@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/HLB2B/static/css/main.ea206378.css",
-    "main.js": "/HLB2B/static/js/main.aca98ba3.js",
+    "main.css": "/HLB2B/static/css/main.8e1462d0.css",
+    "main.js": "/HLB2B/static/js/main.c26eba20.js",
+    "static/media/service.jpg": "/HLB2B/static/media/service.889a97e28290f0bf6358.jpg",
     "static/media/logo.png": "/HLB2B/static/media/logo.858cb05d984b1e11f2fc.png",
     "index.html": "/HLB2B/index.html",
-    "main.ea206378.css.map": "/HLB2B/static/css/main.ea206378.css.map",
-    "main.aca98ba3.js.map": "/HLB2B/static/js/main.aca98ba3.js.map"
+    "main.8e1462d0.css.map": "/HLB2B/static/css/main.8e1462d0.css.map",
+    "main.c26eba20.js.map": "/HLB2B/static/js/main.c26eba20.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea206378.css",
-    "static/js/main.aca98ba3.js"
+    "static/css/main.8e1462d0.css",
+    "static/js/main.c26eba20.js"
   ]
 }
