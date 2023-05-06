@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/HLB2B/static/css/main.b41998f3.css",
-    "main.js": "/HLB2B/static/js/main.3c092dab.js",
-    "static/media/mission.jpg": "/HLB2B/static/media/mission.91516c83b8ef4da187c4.jpg",
-    "static/media/about.jpg": "/HLB2B/static/media/about.cc38f3c45ee08c3247b2.jpg",
+    "main.js": "/HLB2B/static/js/main.b8fba062.js",
     "static/media/logo.png": "/HLB2B/static/media/logo.858cb05d984b1e11f2fc.png",
-    "static/media/service.jpg": "/HLB2B/static/media/service.13099b77df5aaf004742.jpg",
+    "static/media/mission.jpg": "/HLB2B/static/media/mission.54be71b8b201a28b05a6.jpg",
+    "static/media/about.jpg": "/HLB2B/static/media/about.9d14730f523e09d50fe0.jpg",
+    "static/media/service.jpg": "/HLB2B/static/media/service.08824a24d0fb9f645850.jpg",
     "index.html": "/HLB2B/index.html",
     "main.b41998f3.css.map": "/HLB2B/static/css/main.b41998f3.css.map",
-    "main.3c092dab.js.map": "/HLB2B/static/js/main.3c092dab.js.map"
+    "main.b8fba062.js.map": "/HLB2B/static/js/main.b8fba062.js.map"
   },
   "entrypoints": [
     "static/css/main.b41998f3.css",
-    "static/js/main.3c092dab.js"
+    "static/js/main.b8fba062.js"
   ]
 }
