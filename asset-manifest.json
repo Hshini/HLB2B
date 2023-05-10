@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/HLB2B/static/css/main.2021715c.css",
-    "main.js": "/HLB2B/static/js/main.1a65ccd4.js",
+    "main.css": "/HLB2B/static/css/main.4a7db1e4.css",
+    "main.js": "/HLB2B/static/js/main.11124d2f.js",
     "static/media/logo.png": "/HLB2B/static/media/logo.858cb05d984b1e11f2fc.png",
     "static/media/mission.jpg": "/HLB2B/static/media/mission.54be71b8b201a28b05a6.jpg",
     "static/media/about.jpg": "/HLB2B/static/media/about.9d14730f523e09d50fe0.jpg",
     "static/media/service.jpg": "/HLB2B/static/media/service.5ccdf770b3c6e0e27b38.jpg",
     "index.html": "/HLB2B/index.html",
-    "main.2021715c.css.map": "/HLB2B/static/css/main.2021715c.css.map",
-    "main.1a65ccd4.js.map": "/HLB2B/static/js/main.1a65ccd4.js.map"
+    "main.4a7db1e4.css.map": "/HLB2B/static/css/main.4a7db1e4.css.map",
+    "main.11124d2f.js.map": "/HLB2B/static/js/main.11124d2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2021715c.css",
-    "static/js/main.1a65ccd4.js"
+    "static/css/main.4a7db1e4.css",
+    "static/js/main.11124d2f.js"
   ]
 }
