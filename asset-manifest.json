@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HLB2B/static/css/main.383e7594.css",
-    "main.js": "/HLB2B/static/js/main.8ace3e84.js",
+    "main.js": "/HLB2B/static/js/main.f67ad1cb.js",
     "static/media/logo.png": "/HLB2B/static/media/logo.858cb05d984b1e11f2fc.png",
     "static/media/mission.jpg": "/HLB2B/static/media/mission.54be71b8b201a28b05a6.jpg",
     "static/media/fatmir.jpg": "/HLB2B/static/media/fatmir.d24ef1b58545e5b9a091.jpg",
@@ -9,10 +9,10 @@
     "static/media/whyhl.jpg": "/HLB2B/static/media/whyhl.a9c4cc0028c6f6d62f7c.jpg",
     "index.html": "/HLB2B/index.html",
     "main.383e7594.css.map": "/HLB2B/static/css/main.383e7594.css.map",
-    "main.8ace3e84.js.map": "/HLB2B/static/js/main.8ace3e84.js.map"
+    "main.f67ad1cb.js.map": "/HLB2B/static/js/main.f67ad1cb.js.map"
   },
   "entrypoints": [
     "static/css/main.383e7594.css",
-    "static/js/main.8ace3e84.js"
+    "static/js/main.f67ad1cb.js"
   ]
 }
