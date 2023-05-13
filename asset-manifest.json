@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/HLB2B/static/css/main.b1e45f8c.css",
-    "main.js": "/HLB2B/static/js/main.f6cb47bb.js",
-    "static/media/logo.png": "/HLB2B/static/media/logo.858cb05d984b1e11f2fc.png",
-    "static/media/mission.jpg": "/HLB2B/static/media/mission.54be71b8b201a28b05a6.jpg",
-    "static/media/philippe.jpg": "/HLB2B/static/media/philippe.34d14179a88bde892e93.jpg",
-    "static/media/fatmir.jpg": "/HLB2B/static/media/fatmir.08d1de1576abe91011db.jpg",
-    "static/media/whyhl.jpg": "/HLB2B/static/media/whyhl.a9c4cc0028c6f6d62f7c.jpg",
-    "index.html": "/HLB2B/index.html",
-    "main.b1e45f8c.css.map": "/HLB2B/static/css/main.b1e45f8c.css.map",
-    "main.f6cb47bb.js.map": "/HLB2B/static/js/main.f6cb47bb.js.map"
+    "main.css": "//hlb2b.net/static/css/main.b1e45f8c.css",
+    "main.js": "//hlb2b.net/static/js/main.a61bfb67.js",
+    "static/media/logo.png": "//hlb2b.net/static/media/logo.858cb05d984b1e11f2fc.png",
+    "static/media/mission.jpg": "//hlb2b.net/static/media/mission.54be71b8b201a28b05a6.jpg",
+    "static/media/philippe.jpg": "//hlb2b.net/static/media/philippe.34d14179a88bde892e93.jpg",
+    "static/media/fatmir.jpg": "//hlb2b.net/static/media/fatmir.08d1de1576abe91011db.jpg",
+    "static/media/whyhl.jpg": "//hlb2b.net/static/media/whyhl.a9c4cc0028c6f6d62f7c.jpg",
+    "index.html": "//hlb2b.net/index.html",
+    "main.b1e45f8c.css.map": "//hlb2b.net/static/css/main.b1e45f8c.css.map",
+    "main.a61bfb67.js.map": "//hlb2b.net/static/js/main.a61bfb67.js.map"
   },
   "entrypoints": [
     "static/css/main.b1e45f8c.css",
-    "static/js/main.f6cb47bb.js"
+    "static/js/main.a61bfb67.js"
   ]
 }
