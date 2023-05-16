@@ -1,3 +1,3 @@
 # HLB2B
 ## Deploy
-https://hshini.github.io/HLB2B/
+https://hlb2b.net/
