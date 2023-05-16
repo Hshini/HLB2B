@@ -1,18 +1,13 @@
 import React from "react";
-import {Button,Row,Col,Container} from 'react-bootstrap';
+import {Row,Col} from 'react-bootstrap';
 import missionImg from '../assets/images/mission.jpg'
 function OurMission() {
     return (
-        <>
-            <div className="mb-2" style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
-                <Button variant="info" size="lg">
-                   Our Mission
-                </Button>{' '}
-            </div>
-            <Container style={{ display: 'flex', justifyContent:'start'}}>
+        <div>
+            <div style={{marginTop:'50px'}}>
                 <Row>
-                    <Col xl ={6} >
-                        <p style={{color:'#0d6efd'}}>
+                    <Col xl ={4} >
+                        <p>
                             Our mission is to support companies that want to optimize their resources and focus on tasks they are better equipped to fulfil.<br></br>
 
                             We take care of activities that will bring additional value to our clients.<br></br>
@@ -22,12 +17,10 @@ function OurMission() {
                             We want our clients to be happy with our work.<br></br>
                         </p>
                     </Col>
-                    <Col xl={6}><img src={missionImg} alt="mission img" height='400px' width ='500px' style={{borderRadius:'80px'}}/></Col>
-                </Row>
-            </Container> 
-          
-        </>
-
+                    <Col xl={8}><img src={missionImg} alt="mission img" className="img-fluid" style={{borderRadius:'1000px', width: '1000px', height: '500px'}}/></Col>
+                </Row>          
+             </div>
+         </div>
     )
 }
 

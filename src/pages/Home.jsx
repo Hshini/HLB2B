@@ -1,22 +1,18 @@
-// import React from "react";
-// import {Button,Row,Col,Container} from 'react-bootstrap';
+import React from "react";
 
 
-// function Home() {
-//     return (
-//     <>
-//             <div className="mb-2" style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
-//             <Button variant="info" size="lg">
-//             Welcome to HLb2b
-//             </Button>{' '}
-//         </div>
-//             <Container>
-//             <Row>
-//                 <Col xl={12}><img src={} alt="service imgage" height='800px' width ='1200px' style={{marginTop:'40px'}}/></Col>
-//             </Row>
-//         </Container> 
-//     </>         
-//     )
+function Home() {
+    document.body.style.backgroundColor = "#f0f2f6";
+    return (
+    <div >
+        <div style={{display:'flex',flexDirection:'column',textAlign:'center',marginTop:'150px'}}>
+            <h1>We listen - We understand - We deliver</h1>
+            <h3 style={{marginTop:'60px'}}>For B2B companies that need to outsource parts of their sales and marketing activities</h3>
+            <h1 style={{marginTop:'60px'}}>HLb2b is here for you</h1>
+        </div>
+       
+    </div>
+ )
 
-// }
-// export  default Home
+}
+export  default Home

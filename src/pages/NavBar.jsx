@@ -13,12 +13,11 @@ function NavBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" >
         <Nav className="ms-auto">
-
           <Link to ="/"><Button variant="primary">Home</Button></Link>
-          <Link to="/AboutUs"><Button variant="primary">About</Button></Link>
-          <Link to='/AboutUs'>{' '}</Link>
+          <Link to="/AboutUs" ><Button variant="primary">About</Button></Link>
           <Link to='/mission'><Button variant="primary">Our Mission</Button>{' '}</Link>
           <Link to='/service'><Button variant="primary">Our Service</Button>{' '}</Link>
+          <Link to='/why-hlb2b'><Button variant="primary">Why HLb2b?</Button>{' '}</Link>
           <Link to='/contact'><Button variant="primary">Contact</Button>{' '}</Link>
         </Nav>
       </Navbar.Collapse>
