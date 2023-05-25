@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react"; 
+import { Routes, Route,HashRouter  } from "react-router-dom";
 import NavBar from "./pages/NavBar"
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs"
@@ -9,18 +9,17 @@ import OurService from './pages/OurServices'
 import WhyHLb2b from "./pages/WhyHLb2b";
 function App() {
   return (
-      <BrowserRouter>
+      <HashRouter >
         <NavBar />
-        <Routes basename='/hlb2b.net'>
-        <Route path='/' element={<Home />} />
+        <Routes>
+          <Route path='/' element={<Home />} />
           <Route path='/aboutus' element={<AboutUs />} />
           <Route path='/why-hlb2b' element={<WhyHLb2b />} />
           <Route path='contact' element={<Contact />} />
           <Route path='/mission' element={<OurMission />} />
           <Route path='/service' element={<OurService />} />
-
         </Routes>
-      </BrowserRouter>   
+      </HashRouter >   
   );
 }
 

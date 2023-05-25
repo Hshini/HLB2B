@@ -1,26 +1,28 @@
-import React from 'react'
+
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { BiMailSend} from "react-icons/bi";
+import { VscLocation } from "react-icons/vsc";
 import { BsFacebook,BsFillTelephoneFill,BsInstagram,BsLinkedin} from "react-icons/bs";
 import { Row, Col } from 'react-bootstrap';
-
-
-const Contact = () => {
-  const [formStatus, setFormStatus] = React.useState('Send')
-  const onSubmit = (e) => {
-    e.preventDefault()
-    setFormStatus('Submitting...')
-    const { name, email, message, company, phone, lastName } = e.target.elements
-    let conFom = {
-      name: name.value,
-      lastName: lastName.value,
-      email: email.value,
-      message: message.value,
-      company: company.value,
-      phone: phone.value,
-
-    }
-    console.log(conFom)
+ const Contact = () => {
+  function refreshPage(){
+    setTimeout(()=>{
+      window.location.reload();
+  }, 1000); 
   }
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_kql931g', 'template_91207qo', form.current, 'nNwQl30MNPJoEpDHO')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <div>
       <Row  >
@@ -36,52 +38,54 @@ const Contact = () => {
           <div style={{display:'flex',marginLeft:'20px',marginRight:'7px',marginTop:'70px',justifyContent:'center'}}>
             <h1><a href="mailto:hlb2b23@gmail.com"><BiMailSend/></a></h1>
             <h1><a href="tel:+6465496402"><BsFillTelephoneFill/></a></h1>
-            <h1><a href="https://www.linkedin.com/in/philippe-lazerme-8b5392a6/"><BsLinkedin/></a></h1>
-            <h1><a href="https://www.facebook.com/romaio.hoti"><BsFacebook/></a></h1>
-            <h1><a href="https://www.instagram.com/fatmirhoti1/"><BsInstagram/></a></h1>
+            <h1><a href="https://www.linkedin.com/in/philippe-lazerme-8b5392a6/" target="_blank" rel="noopener noreferrer"><BsLinkedin/></a></h1>
+            <h1><a href="https://www.facebook.com/romaio.hoti"  target="_blank" rel="noopener noreferrer"><BsFacebook/></a></h1>
+            <h1><a href="https://www.instagram.com/fatmirhoti1/"  target="_blank" rel="noopener noreferrer"><BsInstagram/></a></h1>
+            <h1><a href="https://www.google.com/maps/@41.2992777,19.8168655,553m/data=!3m1!1e3"  target="_blank" rel="noopener noreferrer"><VscLocation/></a></h1>
           </div>
         </Col>
         <Col xl={6}>
-          <form onSubmit={onSubmit} style={{ marginTop: '20px' }}>
+          <form ref={form} onSubmit={sendEmail} style={{ marginTop: '20px' }}>
             <div>
               <label className="form-label" htmlFor="name">
                 Name *
               </label>
-              <input className="form-control" type="text" id="name" required />
+              <input className="form-control" type="text" name="name" required />
             </div>
             <div >
               <label className="form-label" htmlFor="lastName">
                 Last Name *
               </label>
-              <input className="form-control" type="text" id="lastName" required />
+              <input className="form-control" type="text" name="lastName" required />
             </div>
             <div>
               <label className="form-label" htmlFor="company">
                 Company Name *
               </label>
-              <input className="form-control" type="text" id="company" required />
+              <input className="form-control" type="text" name="company" required />
             </div>
             <div >
               <label className="form-label" htmlFor="email">
                 Email *
               </label>
-              <input className="form-control" type="email" id="email" required />
+              <input className="form-control" type="email" name="email" required />
             </div>
             <div>
               <label className="form-label" htmlFor="phone">
                 Telephone Number*
               </label>
-              <input className="form-control" type="tel" id="phone" required />
+              <input className="form-control" type="tel" name="phone" required />
             </div>
             <div >
               <label className="form-label" htmlFor="message">
                 Message *
               </label>
-              <textarea className="form-control" id="message" required />
+              <textarea className="form-control" name="message" required />
             </div >
             <div className="d-grid gap-2">
-              <button className="btn btn-primary" type="submit" style={{ color: 'white', marginTop: '15px', justifyContent: 'center' }} >
-                {formStatus}
+              <button className="btn btn-primary" type="submit" value="Send"  onClick={ refreshPage } style={{ color: 'white', marginTop: '15px', justifyContent: 'center' }} >
+               
+                Send
               </button>
             </div>
           </form>
@@ -90,4 +94,4 @@ const Contact = () => {
     </div>
   )
 }
-export default Contact
+ export default Contact;
