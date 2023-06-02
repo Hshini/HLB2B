@@ -41,7 +41,7 @@ import { Row, Col } from 'react-bootstrap';
             <h1><a href="https://www.linkedin.com/in/philippe-lazerme-8b5392a6/" target="_blank" rel="noopener noreferrer"><BsLinkedin/></a></h1>
             <h1><a href="https://www.facebook.com/romaio.hoti"  target="_blank" rel="noopener noreferrer"><BsFacebook/></a></h1>
             <h1><a href="https://www.instagram.com/fatmirhoti1/"  target="_blank" rel="noopener noreferrer"><BsInstagram/></a></h1>
-            <h1><a href="https://www.google.com/maps/@41.2992777,19.8168655,553m/data=!3m1!1e3"  target="_blank" rel="noopener noreferrer"><VscLocation/></a></h1>
+            <h1><a href="https://goo.gl/maps/eDgVxoLxJCKizk2q6"  target="_blank" rel="noopener noreferrer"><VscLocation/></a></h1>
           </div>
         </Col>
         <Col xl={6}>
