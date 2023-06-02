@@ -37,7 +37,7 @@ import { Row, Col } from 'react-bootstrap';
           </div>
           <div style={{display:'flex',marginLeft:'20px',marginRight:'7px',marginTop:'70px',justifyContent:'center'}}>
             <h1><a href="mailto:hlb2b23@gmail.com"><BiMailSend/></a></h1>
-            <h1><a href="tel:+6465496402"><BsFillTelephoneFill/></a></h1>
+            <h1><a href="tel:+41789733528"><BsFillTelephoneFill/></a></h1>
             <h1><a href="https://www.linkedin.com/in/philippe-lazerme-8b5392a6/" target="_blank" rel="noopener noreferrer"><BsLinkedin/></a></h1>
             <h1><a href="https://www.facebook.com/romaio.hoti"  target="_blank" rel="noopener noreferrer"><BsFacebook/></a></h1>
             <h1><a href="https://www.instagram.com/fatmirhoti1/"  target="_blank" rel="noopener noreferrer"><BsInstagram/></a></h1>
